@@ -1,0 +1,68 @@
+.about-team{
+    text-align: center;
+    padding: 20px;
+}
+.about-team h1{
+    position: relative;
+    padding-bottom: 10px ;
+}
+.about-team h1::after{
+    content: '';
+    width: 20%;
+    height: 6px;
+    background-color:#15aca2 ;
+    position: absolute ;
+    bottom: -2px;
+    left: 40%;
+    border-radius: 5px;
+}
+.someInformation{
+    text-align: center;
+    padding: 20px;
+}
+.someInformation h1,
+.someInformation h4{
+    padding-bottom: 10px;
+    position: relative;
+}
+.someInformation h4::after{
+    content: '';
+    width: 20%;
+    height: 6px;
+    background-color:#15aca2 ;
+    position: absolute ;
+    bottom: -4px;
+    left: 40%;
+    border-radius: 5px;
+}
+.game-section{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.game-section h3{
+    position: relative;
+    padding-bottom: 10px;
+}
+.game-section button{
+    border: 2px solid #0b8179  ;
+    background: transparent;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    transition: ease 0.4s;
+}
+.game-section button a{
+    color: black;
+    text-decoration: none;
+    transition: ease 0.4s;
+}
+.game-section button:hover{
+    padding: 12px;
+    background-color: #0b8179;
+    color: white;
+}
